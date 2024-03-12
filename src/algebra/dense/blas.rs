@@ -8,8 +8,8 @@ cfg_if::cfg_if! {
     }
         else {   
         // standard imports via blas-lapack-rs crates 
-        extern crate blas_src;
-        extern crate lapack_src;
+        extern crate blas-src;
+        extern crate lapack-src;
         use lapack::*;
         use blas::*;
     }
